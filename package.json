@@ -23,6 +23,7 @@
     },
     "dependencies": {
         "materialize-css": "^1.0.0-rc.2",
-        "react-materialize": "^2.3.3"
+        "react-materialize": "^2.3.3",
+        "react-router-dom": "^4.3.1"
     }
 }
