@@ -36380,12 +36380,12 @@ var Example = function (_Component) {
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                 'div',
                                 { className: 'card-header' },
-                                'Example Component'
+                                'Example A Component'
                             ),
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                 'div',
                                 { className: 'card-body' },
-                                'I\'m an example component!'
+                                'I\'m not an example component woo!'
                             )
                         )
                     )
