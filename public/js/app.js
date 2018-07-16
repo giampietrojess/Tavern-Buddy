@@ -57366,8 +57366,8 @@ var Example = function (_Component) {
                     { className: 'row justify-content-center' },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'div',
-                        { className: 'col-md-8' },
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: __webpack_require__(108) })
+                        { className: 'col md 12' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'img-fluid', src: __webpack_require__(107) })
                     )
                 )
             );
@@ -59914,11 +59914,10 @@ module.exports = hoistNonReactStatics;
 /* 104 */,
 /* 105 */,
 /* 106 */,
-/* 107 */,
-/* 108 */
+/* 107 */
 /***/ (function(module, exports) {
 
-module.exports = "/images/TB-Logo.png?05e68e5063c024c9ae6bbd781a071c7c";
+module.exports = "/images/TB-Logo-Better.png?38c7a7c3b1c081956c4ffa07e27401ef";
 
 /***/ })
 /******/ ]);

@@ -7,8 +7,11 @@ export default class Example extends Component {
         return (
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-md-8">
-                        <img src={require('./images/TB-Logo.png')} />
+                    
+                    <div className="col md 12">
+                        
+                            <img className="img-fluid" src={require('./images/TB-Logo-Better.png')} />
+                        
                         {/* <div className="card">
                             <div className="card-header">Example A Component</div>
 
@@ -17,6 +20,7 @@ export default class Example extends Component {
                             </div>
                         </div> */}
                     </div>
+                    
                 </div>
             </div>
         );
