@@ -12,10 +12,11 @@
 */
 
 Route::get('/', function () {
- return view ('welcome');
+    return view ('welcome');
 });
 
-Route::get('/test', function () {
-    $characterView = DB::table('characters')->get();
-    return $characterView;
-});
+// Character JSON data view
+// Route::get('/', function () {
+//     $characterView = DB::table('characters')->get();
+//     return $characterView;
+// });
