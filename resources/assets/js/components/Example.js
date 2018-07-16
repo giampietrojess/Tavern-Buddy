@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import Button from '@material-ui/core/Button';
 
 
 export default class Example extends Component {
@@ -11,6 +12,20 @@ export default class Example extends Component {
                     <div className="col md 12">
                         
                             <img className="img-fluid" src={require('./images/TB-Logo-Better.png')} />
+                            
+                            A Dungeons and Dragons 5th Edition Character Manager for the New Adventurer!
+                           
+                            
+                            <div className="col md 6">
+                                <Button variant="raised" color="primary">
+                                    Create Account
+                                </Button>
+                            </div>
+                            <div className="col md 6">
+                                <Button variant="raised" color="primary">
+                                    Login
+                                </Button>
+                            </div>
                         
                         {/* <div className="card">
                             <div className="card-header">Example A Component</div>
