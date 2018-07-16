@@ -12,5 +12,6 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $characterView = DB::table('characters')->get();
+    return $characterView;
 });
