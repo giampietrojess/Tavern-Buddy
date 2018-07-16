@@ -12,6 +12,11 @@
 */
 
 Route::get('/', function () {
-    $characterView = DB::table('characters')->get();
-    return $characterView;
+    return view ('welcome');
 });
+
+// Character JSON data view
+// Route::get('/', function () {
+//     $characterView = DB::table('characters')->get();
+//     return $characterView;
+// });
