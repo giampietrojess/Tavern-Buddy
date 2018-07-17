@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import './FadeBox.css';
 
 
-
-export default class NavBar extends Component {
+export default class FadeBox extends Component {
     render() {
         return (
             <div>
@@ -16,6 +16,6 @@ export default class NavBar extends Component {
     }
 }
 
-if (document.getElementById('navbar')) {
-    ReactDOM.render(<NavBar />, document.getElementById('navbar'));
+if (document.getElementById('example')) {
+    ReactDOM.render(<FadeBox />, document.getElementById('navbar'));
 }
