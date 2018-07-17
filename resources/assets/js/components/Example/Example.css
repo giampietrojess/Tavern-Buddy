@@ -3,3 +3,7 @@ Button {
     background-color: #945200!important;
 }
 
+p.tagline {
+    text-align: center;
+    font-size: 2vw;
+}

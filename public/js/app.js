@@ -70299,7 +70299,11 @@ var Example = function (_Component) {
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'div',
                         { className: 'col md 12 justify-content-center' },
-                        'A Dungeons and Dragons 5th Edition Character Manager for the New Adventurer!'
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'p',
+                            { className: 'tagline' },
+                            'A Dungeons and Dragons 5th Edition Character Manager for the New Adventurer!'
+                        )
                     )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -70307,7 +70311,7 @@ var Example = function (_Component) {
                     { className: 'row' },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'div',
-                        { className: 'col md 12 justify-content-center' },
+                        { className: 'col md 12' },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             __WEBPACK_IMPORTED_MODULE_2__material_ui_core_Button___default.a,
                             { className: 'loginButton', variant: 'raised', color: 'primary' },
@@ -70390,7 +70394,7 @@ exports = module.exports = __webpack_require__(105)(false);
 
 
 // module
-exports.push([module.i, "Button {\n    margin: 10px!important;\n    background-color: #945200!important;\n}\n\n", ""]);
+exports.push([module.i, "Button {\n    margin: 10px!important;\n    background-color: #945200!important;\n}\n\np.tagline {\n    text-align: center;\n    font-size: 2vw;\n}\n", ""]);
 
 // exports
 

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import ReactDOM from '../../../../../../../../Library/Caches/typescript/2.9/node_modules/@types/react-dom';
-import Button from '@material-ui/core/Button';
+import ReactDOM from 'react-dom';
+
 
 
 export default class NavBar extends Component {
     render() {
         return (
-            <div className="container">
+            <div>
                 <div className="row justify-content-center">
                     
                     
