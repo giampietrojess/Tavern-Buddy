@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
-import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 
 export default class Character extends Component {
@@ -49,6 +49,6 @@ export default class Character extends Component {
     }
 }
 
-if (document.getElementById('example')) {
-    ReactDOM.render(<Character />, document.getElementById('example'));
-}
+// if (document.getElementById('root')) {
+//     ReactDOM.render(<Character />, document.getElementById('root'));
+// }

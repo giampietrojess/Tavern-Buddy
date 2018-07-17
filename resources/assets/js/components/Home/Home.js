@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Button from '@material-ui/core/Button';
 import Icon from '@material-ui/core/Icon';
-import './Example.css';
+import './Home.css';
 
 
-export default class Example extends Component {
+export default class Home extends Component {
     render() {
         return (
             <div className="container">
@@ -42,6 +42,6 @@ export default class Example extends Component {
     }
 }
 
-if (document.getElementById('example')) {
-    ReactDOM.render(<Example />, document.getElementById('example'));
+if (document.getElementById('root')) {
+    ReactDOM.render(<Home />, document.getElementById('root'));
 }

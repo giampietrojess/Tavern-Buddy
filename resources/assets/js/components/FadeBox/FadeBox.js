@@ -16,6 +16,6 @@ export default class FadeBox extends Component {
     }
 }
 
-if (document.getElementById('example')) {
+if (document.getElementById('root')) {
     ReactDOM.render(<FadeBox />, document.getElementById('navbar'));
 }
