@@ -35,7 +35,7 @@ function ButtonAppBar(props) {
           </Typography>
           <Button color="inherit">Login</Button>
           <Link to="/">Home</Link>
-          <Link to="character">My Characters</Link>
+          <Link to="/character">My Characters</Link>
           
         </Toolbar>
       </AppBar>

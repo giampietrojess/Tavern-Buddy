@@ -63126,7 +63126,7 @@ function ButtonAppBar(props) {
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           __WEBPACK_IMPORTED_MODULE_8_react_router_dom__["b" /* Link */],
-          { to: 'character' },
+          { to: '/character' },
           'My Characters'
         )
       )
