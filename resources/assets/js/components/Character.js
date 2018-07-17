@@ -28,14 +28,12 @@ export default class Character extends Component {
                     
                     <div className="col md 12">
                         
-                            <img className="img-fluid" src={require('./images/TB-Logo-Better.png')} />
-                        
                             <div className="card">
                                 <div className="card-header">Character Sheet</div>
 
                                 <div className="card-body">
                                     Character Data
-                                    {this.state.characters.map(character => <li>{character.name}</li><li>{character.race}</li><li>{character.class}</li>)}
+                                    {this.state.characters.map(character => <li>{character.name}</li>)}
                                 </div>
                             </div>
                     </div>
