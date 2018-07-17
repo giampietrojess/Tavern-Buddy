@@ -70386,6 +70386,11 @@ var Index = function (_Component) {
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'div',
                         null,
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            __WEBPACK_IMPORTED_MODULE_6_react_router_dom__["b" /* Link */],
+                            { to: '/character' },
+                            'Character Sheet'
+                        ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_router_dom__["c" /* Route */], { path: '/', exact: true, component: __WEBPACK_IMPORTED_MODULE_2__components_Example_Example_js__["a" /* default */] }),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_router_dom__["c" /* Route */], { path: '/character', exact: true, component: __WEBPACK_IMPORTED_MODULE_3__components_Character_js__["a" /* default */] }),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_router_dom__["c" /* Route */], { path: '/character/:id', exact: true, render: function render(props) {
@@ -70884,11 +70889,6 @@ function ButtonAppBar(props) {
           'a',
           { href: '/' },
           'Home'
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'a',
-          { href: '/character' },
-          'Character Sheet'
         )
       )
     )

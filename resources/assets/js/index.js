@@ -17,7 +17,7 @@ export default class Index extends Component {
                 <Router>
                     <div>
                     
-            
+                        <Link to="/character">Character Sheet</Link>
                         <Route path="/" exact component={Example}/>
                         <Route path="/character" exact component={Character}/>
                         <Route path="/character/:id" exact render={props => <CharacterSheet{...props} /> }/>
