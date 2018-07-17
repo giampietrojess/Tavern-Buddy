@@ -6,7 +6,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
-import {BrowserRouter as Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 const styles = {
   root: {
@@ -34,7 +34,8 @@ function ButtonAppBar(props) {
             News
           </Typography>
           <Button color="inherit">Login</Button>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
+          <Link to="character">My Characters</Link>
           
         </Toolbar>
       </AppBar>

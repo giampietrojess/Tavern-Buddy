@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
-import {Link} from 'react-router-dom';
+import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
 
 
 export default class Character extends Component {
@@ -23,6 +23,7 @@ export default class Character extends Component {
         })
     }
     render() {
+        console.log(this.characters);
         return (
             <div className="container">
                 <div className="row justify-content-center">
@@ -49,6 +50,6 @@ export default class Character extends Component {
     }
 }
 
-// if (document.getElementById('root')) {
-//     ReactDOM.render(<Character />, document.getElementById('root'));
-// }
+if (document.getElementById('root')) {
+    ReactDOM.render(<Character />, document.getElementById('root'));
+}
