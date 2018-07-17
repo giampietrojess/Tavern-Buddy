@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
+import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
 
 
 export default class Character extends Component {
@@ -32,8 +33,12 @@ export default class Character extends Component {
                                 <div className="card-header">Character Sheet</div>
 
                                 <div className="card-body">
-                                    Character Data
-                                    {this.state.characters.map(character => <li>{character.name}</li>)}
+                                    Your Characters
+                                    {this.state.characters.map(character => 
+                                        <li>
+                                            <Link to={"/character/" + character.id}> {character.name} </Link>
+                                        </li>
+                                    )}
                                 </div>
                             </div>
                     </div>
