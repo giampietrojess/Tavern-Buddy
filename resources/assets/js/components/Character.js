@@ -35,7 +35,7 @@ export default class Character extends Component {
                                 <div className="card-body">
                                     Your Characters
                                     {this.state.characters.map(character => 
-                                        <li>
+                                        <li key={character.id}>
                                             <Link to={"/character/" + character.id}> {character.name} </Link>
                                         </li>
                                     )}
