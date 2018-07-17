@@ -20,7 +20,7 @@ export default class Index extends Component {
                         <Link to="/character">Character Sheet</Link>
                         <Route path="/" exact component={Example}/>
                         <Route path="/character" exact component={Character}/>
-                        <Route path="/character/:id" exact render={props => <CharacterSheet{...props} /> }/>
+                        <Route exact path="/character/:id" exact render={props => <CharacterSheet{...props}/> }/>
                     </div>
                 </Router>
             </div>
