@@ -70378,24 +70378,28 @@ var Index = function (_Component) {
         value: function render() {
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
-                { className: 'container' },
+                null,
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_NavBar_Navi_js__["a" /* default */], null),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    __WEBPACK_IMPORTED_MODULE_6_react_router_dom__["a" /* BrowserRouter */],
-                    null,
+                    'div',
+                    { className: 'container' },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'div',
+                        __WEBPACK_IMPORTED_MODULE_6_react_router_dom__["a" /* BrowserRouter */],
                         null,
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            __WEBPACK_IMPORTED_MODULE_6_react_router_dom__["b" /* Link */],
-                            { to: '/character' },
-                            'Character Sheet'
-                        ),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_router_dom__["c" /* Route */], { path: '/', exact: true, component: __WEBPACK_IMPORTED_MODULE_2__components_Example_Example_js__["a" /* default */] }),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_router_dom__["c" /* Route */], { path: '/character', exact: true, component: __WEBPACK_IMPORTED_MODULE_3__components_Character_js__["a" /* default */] }),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_router_dom__["c" /* Route */], { path: '/character/:id', exact: true, render: function render(props) {
-                                return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_CharacterSheet_js__["a" /* default */], props);
-                            } })
+                            'div',
+                            null,
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                __WEBPACK_IMPORTED_MODULE_6_react_router_dom__["b" /* Link */],
+                                { to: '/character' },
+                                'Character Sheet'
+                            ),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_router_dom__["c" /* Route */], { path: '/', exact: true, component: __WEBPACK_IMPORTED_MODULE_2__components_Example_Example_js__["a" /* default */] }),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_router_dom__["c" /* Route */], { path: '/character', exact: true, component: __WEBPACK_IMPORTED_MODULE_3__components_Character_js__["a" /* default */] }),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_router_dom__["c" /* Route */], { path: '/character/:id', exact: true, render: function render(props) {
+                                    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_CharacterSheet_js__["a" /* default */], props);
+                                } })
+                        )
                     )
                 )
             );
@@ -70838,8 +70842,6 @@ exports.default = _default;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__material_ui_core_Button___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_Button__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton__ = __webpack_require__(297);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react_router_dom__ = __webpack_require__(77);
-
 
 
 
@@ -70856,6 +70858,7 @@ var styles = {
   flex: {
     flexGrow: 1
   },
+
   menuButton: {
     marginLeft: -12,
     marginRight: 20
@@ -70870,15 +70873,14 @@ function ButtonAppBar(props) {
     { className: classes.root },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       __WEBPACK_IMPORTED_MODULE_3__material_ui_core_AppBar___default.a,
-      { position: 'static' },
+      { style: { backgroundColor: 'white' }, position: 'static' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         __WEBPACK_IMPORTED_MODULE_4__material_ui_core_Toolbar___default.a,
         null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton___default.a, { className: classes.menuButton, color: 'inherit', 'aria-label': 'Menu' }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           __WEBPACK_IMPORTED_MODULE_5__material_ui_core_Typography___default.a,
           { variant: 'title', color: 'inherit', className: classes.flex },
-          'News'
+          'Tavern Buddy'
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           __WEBPACK_IMPORTED_MODULE_6__material_ui_core_Button___default.a,

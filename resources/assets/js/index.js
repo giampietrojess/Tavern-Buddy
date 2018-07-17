@@ -11,18 +11,21 @@ import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
 export default class Index extends Component {
     render() {
         return (
-            <div className="container">
+            <div>
                 <Navi />
-                
-                <Router>
-                    <div>
+                <div className="container">
                     
-                        <Link to="/character">Character Sheet</Link>
-                        <Route path="/" exact component={Example}/>
-                        <Route path="/character" exact component={Character}/>
-                        <Route path="/character/:id" exact render={props => <CharacterSheet{...props} /> }/>
-                    </div>
-                </Router>
+                    
+                    <Router>
+                        <div>
+                        
+                            <Link to="/character">Character Sheet</Link>
+                            <Route path="/" exact component={Example}/>
+                            <Route path="/character" exact component={Character}/>
+                            <Route path="/character/:id" exact render={props => <CharacterSheet{...props} /> }/>
+                        </div>
+                    </Router>
+                </div>
             </div>
         );
     }
