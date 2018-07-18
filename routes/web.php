@@ -15,8 +15,21 @@ Route::get('/', function () {
     return view ('welcome');
 });
 
+Route::group(['middleware' => ['web']], function () {
+    Route::post('login','Auth\LoginController@login');  
+    Route::post('register','Auth\RegisterController@register');  
+    Route::post('logout','Auth\LoginController@logout');
+    Route::post('password/email','Auth\ForgotPasswordController@sendResetLinkEmail'); 
+    Route::post('password/reset','Auth\ResetPasswordController@reset');
+       
+});
+
 // Character JSON data view
 // Route::get('/', function () {
 //     $characterView = DB::table('characters')->get();
 //     return $characterView;
 // });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

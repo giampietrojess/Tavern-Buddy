@@ -24,11 +24,11 @@ export default class Example extends Component {
                 </div> 
                 <div className="row">
                     <div className="col md 12">
-                        <Button className="loginButton" variant="raised" color="primary">
+                        <Button href="/register" className="loginButton" variant="raised" color="primary">
                         <Icon>arrow_forward</Icon>Create Account
                         </Button>
                 
-                        <Button variant="raised" color="primary">
+                        <Button href="/login" variant="raised" color="primary">
                         <Icon>arrow_forward</Icon> Login Here
                         </Button>
                     </div>
