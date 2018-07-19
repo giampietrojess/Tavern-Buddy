@@ -9,22 +9,22 @@ export default class Example extends Component {
     render() {
         return (
             <div className="container">
-                <div className="row justify-content-center">
-                    
-                    <div className="col md 10">
-                        <img className="img-fluid" src={require('./images/TB-Logo-Better.png')} />
+                <div className="row valign-wrapper">
+                    <div className="col s1"></div>
+                    <div className="col s11">
+                        <img className="responsive-img" src={require('./images/TB-Logo-Better.png')} />
                     </div>
                     
                 </div>    
-                <div className="row justify-content-center">
+                <div className="row valign-wrapper">
                    
-                    <div className="col md 12 justify-content-center">   
+                    <div className="col s12 valign-wrapper">   
                         <p className="tagline">A Dungeons and Dragons 5th Edition Character Manager for the New Adventurer!</p>
                     </div>     
                   
                 </div> 
-                <div className="row justify-content-center">
-                    <div className="col md 12 center">
+                <div className="row valign-wrapper">
+                    <div className="col s12 center">
                         <Button href="/register" className="fpButton" variant="raised">
                         <Icon>arrow_forward</Icon>Create Account
                         </Button>
