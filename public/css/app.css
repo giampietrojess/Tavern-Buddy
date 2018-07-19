@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);.materialize-red {
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://fonts.googleapis.com/icon?family=Material+Icons);.materialize-red {
   background-color: #e51c23 !important;
 }
 
@@ -9505,8 +9505,7 @@ input[type=range]::-ms-thumb {
 }
 
 .navbar-laravel {
-  background-color: #fff;
-  color: black;
+  background-color: black;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
