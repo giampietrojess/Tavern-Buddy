@@ -33,3 +33,5 @@ Route::group(['middleware' => ['web']], function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/character', 'api\CharacterController@index')->name('character');

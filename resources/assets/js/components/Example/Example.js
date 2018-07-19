@@ -11,9 +11,10 @@ export default class Example extends Component {
             <div className="container">
                 <div className="row justify-content-center">
                     
-                    <div className="col md 12">
+                    <div className="col md 10">
                         <img className="img-fluid" src={require('./images/TB-Logo-Better.png')} />
                     </div>
+                    
                 </div>    
                 <div className="row justify-content-center">
                    
@@ -22,16 +23,16 @@ export default class Example extends Component {
                     </div>     
                   
                 </div> 
-                <div className="row">
-                    <div className="col md 12">
-                        <Button href="/register" className="loginButton" variant="raised" color="primary">
+                <div className="row justify-content-center">
+                    <div className="col md 12 center">
+                        <Button href="/register" className="fpButton" variant="raised">
                         <Icon>arrow_forward</Icon>Create Account
                         </Button>
-                
-                        <Button href="/login" variant="raised" color="primary">
+                        <Button href="/login" className="fpButton" variant="raised">
                         <Icon>arrow_forward</Icon> Login Here
                         </Button>
                     </div>
+                
                 </div>
                     
             </div>

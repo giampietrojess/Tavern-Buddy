@@ -1,9 +1,15 @@
-Button {
+.fpButton {
     margin: 10px!important;
     background-color: #945200!important;
+    color: #fff !important;
+    float: none!important;
 }
 
 p.tagline {
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.8vw;
+}
+
+.center {
+    text-align: center;
 }

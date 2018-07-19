@@ -19077,7 +19077,6 @@ window.Popper = __webpack_require__(49).default;
 
 try {
   window.$ = window.jQuery = __webpack_require__(50);
-
   __webpack_require__(88);
 } catch (e) {}
 
@@ -41300,6 +41299,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_NavBar_Navi_js__ = __webpack_require__(226);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_CharacterSheet_js__ = __webpack_require__(243);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react_router_dom__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__material_ui_core_CssBaseline__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__material_ui_core_CssBaseline___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_CssBaseline__);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -41307,6 +41308,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 
 
 
@@ -41331,26 +41333,26 @@ var Index = function (_Component) {
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
                 null,
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_NavBar_Navi_js__["a" /* default */], null),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'div',
-                    { className: 'container' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.Fragment,
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_CssBaseline___default.a, null),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_NavBar_Navi_js__["a" /* default */], null),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        __WEBPACK_IMPORTED_MODULE_6_react_router_dom__["a" /* BrowserRouter */],
-                        null,
+                        'div',
+                        { className: 'container' },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            'div',
+                            __WEBPACK_IMPORTED_MODULE_6_react_router_dom__["a" /* BrowserRouter */],
                             null,
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                __WEBPACK_IMPORTED_MODULE_6_react_router_dom__["b" /* Link */],
-                                { to: '/character' },
-                                'Character Sheet'
-                            ),
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_router_dom__["c" /* Route */], { path: '/', exact: true, component: __WEBPACK_IMPORTED_MODULE_2__components_Example_Example_js__["a" /* default */] }),
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_router_dom__["c" /* Route */], { path: '/character', exact: true, component: __WEBPACK_IMPORTED_MODULE_3__components_Character_js__["a" /* default */] }),
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_router_dom__["c" /* Route */], { path: '/character/:id', exact: true, render: function render(props) {
-                                    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_CharacterSheet_js__["a" /* default */], props);
-                                } })
+                                'div',
+                                null,
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_router_dom__["c" /* Route */], { path: '/', exact: true, component: __WEBPACK_IMPORTED_MODULE_2__components_Example_Example_js__["a" /* default */] }),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_router_dom__["c" /* Route */], { path: '/character', exact: true, component: __WEBPACK_IMPORTED_MODULE_3__components_Character_js__["a" /* default */] }),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_router_dom__["c" /* Route */], { path: '/character/:id', exact: true, render: function render(props) {
+                                        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_CharacterSheet_js__["a" /* default */], props);
+                                    } })
+                            )
                         )
                     )
                 )
@@ -60754,7 +60756,7 @@ var Example = function (_Component) {
                     { className: 'row justify-content-center' },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'div',
-                        { className: 'col md 12' },
+                        { className: 'col md 10' },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'img-fluid', src: __webpack_require__(201) })
                     )
                 ),
@@ -60773,13 +60775,13 @@ var Example = function (_Component) {
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'div',
-                    { className: 'row' },
+                    { className: 'row justify-content-center' },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'div',
-                        { className: 'col md 12' },
+                        { className: 'col md 12 center' },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             __WEBPACK_IMPORTED_MODULE_2__material_ui_core_Button___default.a,
-                            { href: '/register', className: 'loginButton', variant: 'raised', color: 'primary' },
+                            { href: '/register', className: 'fpButton', variant: 'raised' },
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                 __WEBPACK_IMPORTED_MODULE_3__material_ui_core_Icon___default.a,
                                 null,
@@ -60789,7 +60791,7 @@ var Example = function (_Component) {
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             __WEBPACK_IMPORTED_MODULE_2__material_ui_core_Button___default.a,
-                            { href: '/login', variant: 'raised', color: 'primary' },
+                            { href: '/login', className: 'fpButton', variant: 'raised' },
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                 __WEBPACK_IMPORTED_MODULE_3__material_ui_core_Icon___default.a,
                                 null,
@@ -67991,7 +67993,7 @@ exports = module.exports = __webpack_require__(198)(false);
 
 
 // module
-exports.push([module.i, "Button {\n    margin: 10px!important;\n    background-color: #945200!important;\n}\n\np.tagline {\n    text-align: center;\n    font-size: 2vw;\n}\n", ""]);
+exports.push([module.i, ".fpButton {\n    margin: 10px!important;\n    background-color: #945200!important;\n    color: #fff !important;\n    float: none!important;\n}\n\np.tagline {\n    text-align: center;\n    font-size: 1.8vw;\n}\n\n.center {\n    text-align: center;\n}\n", ""]);
 
 // exports
 
@@ -70521,9 +70523,10 @@ function ButtonAppBar(props) {
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         __WEBPACK_IMPORTED_MODULE_4__material_ui_core_Toolbar___default.a,
         null,
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_IconButton___default.a, { className: classes.menuButton, color: 'blue', 'aria-label': 'Menu' }),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           __WEBPACK_IMPORTED_MODULE_5__material_ui_core_Typography___default.a,
-          { variant: 'title', color: 'inherit', className: classes.flex },
+          { variant: 'title', color: 'secondary', className: classes.flex },
           'Tavern Buddy'
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -70535,6 +70538,11 @@ function ButtonAppBar(props) {
           'a',
           { href: '/' },
           'Home'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'a',
+          { href: '/character' },
+          'Character Sheet'
         )
       )
     )
@@ -71915,7 +71923,133 @@ var CharacterSheet = function (_Component) {
 /* 244 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: \n      .#{$color_name}.#{$color_type} {\n     ^\n      Invalid CSS after \".blue\": expected selector, was \".#007bff\"\n      in /Users/JessGiampietro/Documents/CODING/Tavern-Buddy/node_modules/materialize-css/sass/components/_color-classes.scss (line 14, column 7)\n    at runLoaders (/Users/JessGiampietro/Documents/CODING/Tavern-Buddy/node_modules/webpack/lib/NormalModule.js:195:19)\n    at /Users/JessGiampietro/Documents/CODING/Tavern-Buddy/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/JessGiampietro/Documents/CODING/Tavern-Buddy/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at context.callback (/Users/JessGiampietro/Documents/CODING/Tavern-Buddy/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.asyncSassJobQueue.push [as callback] (/Users/JessGiampietro/Documents/CODING/Tavern-Buddy/node_modules/sass-loader/lib/loader.js:55:13)\n    at Object.done [as callback] (/Users/JessGiampietro/Documents/CODING/Tavern-Buddy/node_modules/neo-async/async.js:7974:18)\n    at options.error (/Users/JessGiampietro/Documents/CODING/Tavern-Buddy/node_modules/node-sass/lib/index.js:294:32)");
+
+/***/ }),
+/* 245 */,
+/* 246 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(0);
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function get() {
+    return _CssBaseline.default;
+  }
+});
+
+var _CssBaseline = _interopRequireDefault(__webpack_require__(247));
+
+/***/ }),
+/* 247 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(0);
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__(14));
+
+var _createClass2 = _interopRequireDefault(__webpack_require__(15));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__(16));
+
+var _inherits2 = _interopRequireDefault(__webpack_require__(17));
+
+var _react = _interopRequireDefault(__webpack_require__(1));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(2));
+
+var _styles = __webpack_require__(227);
+
+var _exactProp = _interopRequireDefault(__webpack_require__(230));
+
+/* eslint-disable react/no-unused-prop-types */
+var styles = function styles(theme) {
+  return {
+    '@global': {
+      html: {
+        WebkitFontSmoothing: 'antialiased',
+        // Antialiasing.
+        MozOsxFontSmoothing: 'grayscale',
+        // Antialiasing.
+        // Change from `box-sizing: content-box` so that `width`
+        // is not affected by `padding` or `border`.
+        boxSizing: 'border-box'
+      },
+      '*, *::before, *::after': {
+        boxSizing: 'inherit'
+      },
+      body: {
+        margin: 0,
+        // Remove the margin in all browsers.
+        backgroundColor: theme.palette.background.default,
+        '@media print': {
+          // Save printer ink.
+          backgroundColor: theme.palette.common.white
+        }
+      }
+    }
+  };
+};
+/**
+ * Kickstart an elegant, consistent, and simple baseline to build upon.
+ */
+
+
+var CssBaseline =
+/*#__PURE__*/
+function (_React$Component) {
+  (0, _inherits2.default)(CssBaseline, _React$Component);
+
+  function CssBaseline() {
+    (0, _classCallCheck2.default)(this, CssBaseline);
+    return (0, _possibleConstructorReturn2.default)(this, (CssBaseline.__proto__ || Object.getPrototypeOf(CssBaseline)).apply(this, arguments));
+  }
+
+  (0, _createClass2.default)(CssBaseline, [{
+    key: "render",
+    value: function render() {
+      return this.props.children;
+    }
+  }]);
+  return CssBaseline;
+}(_react.default.Component);
+
+CssBaseline.propTypes =  true ? {
+  /**
+   * You can wrap a node.
+   */
+  children: _propTypes.default.node,
+
+  /**
+   * @ignore
+   */
+  classes: _propTypes.default.object.isRequired
+} : {};
+CssBaseline.propTypes =  true ? (0, _exactProp.default)(CssBaseline.propTypes) : {};
+CssBaseline.defaultProps = {
+  children: null
+};
+
+var _default = (0, _styles.withStyles)(styles, {
+  name: 'MuiCssBaseline'
+})(CssBaseline);
+
+exports.default = _default;
 
 /***/ })
 /******/ ]);

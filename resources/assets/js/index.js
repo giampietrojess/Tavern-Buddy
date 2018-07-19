@@ -5,12 +5,16 @@ import Character from './components/Character.js';
 import Navi from './components/NavBar/Navi.js';
 import CharacterSheet from './components/CharacterSheet.js';
 import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
-
+import CssBaseline from '@material-ui/core/CssBaseline';
 
 export default class Index extends Component {
     render() {
         return (
             <div>
+                <React.Fragment>
+                    <CssBaseline />
+     
+   
                 <Navi />
                 <div className="container">
                     
@@ -18,13 +22,14 @@ export default class Index extends Component {
                     <Router>
                         <div>
                         
-                            <Link to="/character">Character Sheet</Link>
+                        {/* <Link to="/character">Character Sheet</Link> */}
                             <Route path="/" exact component={Example}/>
                             <Route path="/character" exact component={Character}/>
                             <Route path="/character/:id" exact render={props => <CharacterSheet{...props}/>}/>
                         </div>
                     </Router>
                 </div>
+                </React.Fragment>
             </div>
         );
     }
